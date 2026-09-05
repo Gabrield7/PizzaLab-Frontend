@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Tokens extraídos de Mode 1.tokens.json (Figma) */
+@theme {
+  /* marca */
+  --color-marca-primaria: #D40924;
+  --color-marca-primaria-hover: #BC273B;
+  --color-marca-secundaria: #F07900;
+
+  /* feedback */
+  --color-feedback-sucesso: #009966;
+  --color-feedback-erro: #E7000B;
+
+  /* apoio - sólidas */
+  --color-apoio-roxo: #8A38F5;
+  --color-apoio-azul: #006DFD;
+  --color-apoio-laranja: #FD4300;
+  --color-apoio-amarelo: #F0B000;
+  --color-apoio-rosa: #FF0040;
+  --color-apoio-verde-azulado: #0F9D8B;
+
+  /* apoio - suaves (usadas como fundo dos status) */
+  --color-apoio-verde-suave: #C3F3D3;
+  --color-apoio-azul-suave: #BFDBFF;
+  --color-apoio-roxo-suave: #E1D3F4;
+  --color-apoio-laranja-suave: #FFD5AA;
+  --color-apoio-vermelho-suave: #F9C4CB;
+  --color-apoio-verde-azulado-suave: #9CDED6;
+  --color-apoio-rosa-suave: #EDAFBF;
+  --color-apoio-amarelo-suave: #F0DEAD;
+
+  /* apoio - transparentes */
+  --color-apoio-azul-transparente: rgb(0 109 253 / 0.1);
+  --color-apoio-laranja-transparente: rgb(253 67 0 / 0.1);
+  --color-apoio-verde-transparente: rgb(0 153 102 / 0.1);
+  --color-apoio-amarelo-transparente: rgb(240 176 0 / 0.1);
+  --color-apoio-roxo-transparente: rgb(138 56 245 / 0.1);
+  --color-apoio-vermelho-transparente: rgb(231 0 11 / 0.1);
+
+  /* superfície */
+  --color-superficie-fundo: #F8F0E7;
+  --color-superficie-padrao: #F9F8F0;
+  --color-superficie-borda: #D9CFC1;
+  --color-superficie-inativa: #B3B3B3;
+
+  /* texto */
+  --color-texto-corpo: #F9FAFB;
+  --color-texto-suporte: #6E5F5D;
+  --color-texto-titulo: #1E1311;
+}
+
+body {
+  margin: 0;
+  background: #f9f8f0;
+}
